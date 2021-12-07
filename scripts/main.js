@@ -31,13 +31,11 @@ app.addEventListener("click", function(event){
 
 async function open_terminal(){
   createText("You can run several commands:");
- 
   createCode("projects", "My github page with my projects. Follow me there ;)");
   createCode("about me", "Who am i and what do i do.");
   createCode("social -a", "All my social networks.");
   createCode("clear", "Clean the terminal.");
 
-  await delay(500);
   new_line();
 }
 
@@ -62,7 +60,6 @@ function new_line(){
   div.appendChild(i);
   div.appendChild(input);
   app.appendChild(div);
-  input.focus();
   
 }
 
