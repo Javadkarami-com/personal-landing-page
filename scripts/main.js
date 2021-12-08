@@ -1,4 +1,4 @@
-msg = "Amir Creepy - Dicord Develoepr"; +  msg;pos = 0;
+msg = "Amir Creepy - Discord Develoepr"; +  msg;pos = 0;
 msg = msg+' | ';
 function scrollMSG() {
 document.title = msg.substring(pos, msg.length) + msg.substring(0, pos);
