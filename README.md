@@ -1,4 +1,4 @@
-# Amir Creepy - Discord Developer
+# Personal Landing Page
 
 ## Installation
 
